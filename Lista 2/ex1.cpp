@@ -25,9 +25,6 @@ Conta *cadastraUsuarios(Conta c[5]) {
 
 Conta *ordenaDecrescente(Conta c[5]) {
     Conta aux;
-//    for (int i = 0; i < 5; i++) {
-//        cOrdenado[i] = c[i];
-//    }
     for (int contador = 0; contador < 5; contador++) {
         for (int i = 0; i < 4; i++) {
             if (c[i].valor < c[i+1].valor) {
