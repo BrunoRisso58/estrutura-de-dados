@@ -37,7 +37,6 @@ int main() {
 	}
 	
 	do {
-		
 		// lê um pedido
 		cout << "\nPedido:" << endl;
 		cout << "Digite o código do produto: ";
@@ -64,17 +63,5 @@ int main() {
 			}
 		}
 	} while (estoque);
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
